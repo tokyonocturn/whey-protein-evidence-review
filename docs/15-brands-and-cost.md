@@ -57,7 +57,7 @@ flavour, grass-fed/organic claims, and brand positioning.
 
 ### Optimum Nutrition Gold Standard — the benchmark
 
-A WPI-led blend with WPC and hydrolysed peptides, 24 g protein in 30.4 g (79% density), 5.5 g BCAAs,
+A WPI-led blend with WPC and hydrolysed peptides, 24 g protein in 30.4 g (78.9% density), 5.5 g BCAAs,
 sucralose and ace-K, soy lecithin. Widely certified, widely tested, and the cheapest credible
 mainstream option at $1.51 per 25 g. Its vanilla SKU is one of the Clean Sixteen (non-detect for all
 four heavy metals). The chocolate SKUs are not. This is the default recommendation for most people.

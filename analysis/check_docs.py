@@ -113,6 +113,52 @@ for line in cost_doc.splitlines():
     matched += 1
 check(matched == len(derived), f"15-brands-and-cost.md: matched {matched} rows, dataset has {len(derived)}")
 
+# ------------------------------------- composition table vs derived product metrics
+metrics = {(r["brand"], r["product"]): r for r in read_rows("derived_product_metrics.csv")}
+products = {(r["brand"], r["product"]): r for r in read_rows("products.csv")}
+composition_labels = {
+    "Transparent Labs Grass-Fed Isolate": (
+        "Transparent Labs",
+        "100% Grass-Fed Whey Protein Isolate (French Vanilla)",
+    ),
+    "Legion Whey+": ("Legion", "Whey+ (French Vanilla)"),
+    "Myprotein Impact Whey": ("Myprotein", "Impact Whey Protein (Vanilla)"),
+    "Naked Whey": ("Naked Nutrition", "Naked Whey (Unflavored)"),
+    "Optimum Nutrition Gold Standard": (
+        "Optimum Nutrition",
+        "Gold Standard 100% Whey (Double Rich Chocolate)",
+    ),
+    "Dymatize ISO100": ("Dymatize", "ISO100 Hydrolyzed (Gourmet Chocolate)"),
+    "BSN Syntha-6": ("BSN", "Syntha-6 (Chocolate Milkshake)"),
+}
+
+composition_seen = 0
+for line in (DOCS / "02-formulations.md").read_text(encoding="utf-8").splitlines():
+    cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+    if len(cells) != 5 or cells[0] not in composition_labels:
+        continue
+    label = cells[0]
+    key = composition_labels[label]
+    metric = metrics[key]
+    product = products[key]
+    composition_seen += 1
+    check(
+        cells[2] == f"{float(metric['protein_pct_of_powder']):.1f} g",
+        f"02-formulations.md: density for {label} is {cells[2]}, dataset says {metric['protein_pct_of_powder']} g",
+    )
+    check(
+        cells[3] == f"{float(product['protein_g']):g} g",
+        f"02-formulations.md: protein per serving for {label} is {cells[3]}, dataset says {product['protein_g']} g",
+    )
+    if metric["kcal_per_25g_protein"]:
+        check(
+            cells[4] == f"{float(metric['kcal_per_25g_protein']):.0f}",
+            f"02-formulations.md: kcal per 25 g for {label} is {cells[4]}, dataset says {metric['kcal_per_25g_protein']}",
+        )
+    else:
+        check(cells[4] == "not disclosed", f"02-formulations.md: {label} should say 'not disclosed' for calories")
+check(composition_seen == 7, f"02-formulations.md: expected 7 checked composition rows, found {composition_seen}")
+
 # --------------------------------------------------------------- README headline figures
 for token in ("$0.77", "$1.51", "$4.03", "5.2x", "1.62 g/kg"):
     check(token in readme, f"README.md: headline figure '{token}' missing")

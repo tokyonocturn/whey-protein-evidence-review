@@ -64,7 +64,7 @@ Using the label data in `data/products.csv`:
 | Legion Whey+ | isolate | 84.6 g | 22 g | 114 |
 | Myprotein Impact Whey | concentrate | 84.0 g | 21 g | not disclosed |
 | Naked Whey | concentrate | 83.3 g | 25 g | 120 |
-| Optimum Nutrition Gold Standard | blend | 79.0 g | 24 g | 135 |
+| Optimum Nutrition Gold Standard | blend | 78.9 g | 24 g | 135 |
 | Dymatize ISO100 | hydrolysate/isolate | 78.1 g | 25 g | 120 |
 | BSN Syntha-6 | blend | 47.8 g | 22 g | 227 |
 
