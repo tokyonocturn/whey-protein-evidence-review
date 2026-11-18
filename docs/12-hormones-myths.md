@@ -63,13 +63,13 @@ The 0.4 g/kg per meal recommendation is about efficiency, not a hard ceiling [S0
 
 ## "Whey is wasted without a workout within 30 minutes"
 
-Wrong. The anabolic window is hours wide, and total daily protein intake is a far stronger predictor
-of hypertrophy than timing [S01].
+Wrong. The anabolic window is hours wide, and total daily protein intake is the main lever for
+hypertrophy [S01].
 
 ## "Hydrolysed whey is twice as anabolic"
 
 Wrong. Hydrolysate raises blood amino acids faster and produced similar MPS to intact whey in a
-direct randomised comparison (+67% vs +57%, not statistically different) [S06]. It may help recovery
+direct randomised comparison (+67% vs +57%, not statistically different) [S44]. It may help recovery
 in some protocols, but it is not twice as anabolic.
 
 ## "Whey causes kidney damage"

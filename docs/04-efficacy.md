@@ -15,9 +15,9 @@ and 1,863 participants [S01]:
 - **Breakpoint at 1.62 g/kg/day** (95% CI 1.03-2.20): beyond that, no further fat-free mass gain.
 - The effect was smaller with increasing age and larger in resistance-trained people.
 
-A dose-response meta-analysis of 138 trial arms and 5,866 participants found a weighted mean
-difference in lean body mass of **+0.51 kg**, rising to **+0.80 kg** when the supplemental dose was at
-least 0.6 g/kg/day [S02]. A separate dose-response analysis of strength found gains of 0.72% per
+A dose-response meta-analysis of 105 articles and 5,402 participants found that each additional
+0.1 g/kg/day of protein added **0.39 kg** of lean body mass below a total intake of 1.3 g/kg/day, and
+only **0.12 kg** above it [S02]. A separate dose-response analysis of strength found gains of 0.72% per
 0.1 g/kg/day of total protein **up to 1.5 g/kg/day, with no further gain beyond** [S03].
 
 Put plainly: over 8-12 weeks of consistent training, protein supplementation adds a few hundred grams
@@ -54,7 +54,7 @@ justifies a 30-50% price premium for most people.
 
 Ageing produces anabolic resistance: older muscle needs more protein and more leucine per meal to
 respond. Expert groups recommend **1.0-1.2 g/kg/day for healthy older adults** and **1.2-1.5
-g/kg/day during illness**, with 25-30 g of high-quality protein per meal [S16]. Whey is well suited
+g/kg/day during illness**, with 25-30 g of high-quality protein per meal [S04, S16]. Whey is well suited
 because it is leucine-dense, easy to chew and digest, and cheap per gram of protein. This is one of
 the clearest use cases for a whey supplement: a person who cannot eat enough protein from food.
 

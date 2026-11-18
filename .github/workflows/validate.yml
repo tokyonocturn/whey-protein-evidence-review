@@ -18,5 +18,7 @@ jobs:
         run: python analysis/validate.py
       - name: Check links, citations and published figures
         run: python analysis/check_docs.py
+      - name: Check every citation marker has an audit verdict
+        run: python analysis/check_audit.py
       - name: Confirm regeneration leaves the committed tables unchanged
         run: git diff --exit-code -- data/derived_costs.csv data/derived_product_metrics.csv

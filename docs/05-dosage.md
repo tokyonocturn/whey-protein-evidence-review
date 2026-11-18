@@ -8,7 +8,7 @@
 | Acceptable range for adults | 10-35% of energy | Dietary Guidelines |
 | Athletes (ACSM/RD) | 1.2-2.0 g/kg/day | Position stand |
 | Resistance training, hypertrophy | 1.6 g/kg/day, up to 2.2 g/kg/day | Morton 2018 [S01]; Schoenfeld & Aragon [S04] |
-| Per meal for MPS | 0.25-0.4 g/kg, or 20-40 g | [S04, S07] |
+| Per meal for MPS | 0.25-0.4 g/kg, or 20-40 g | [S04, S09] |
 | Older adults, healthy | 1.0-1.2 g/kg/day | ESPEN/PROT-AGE [S16] |
 | Older adults, illness | 1.2-1.5 g/kg/day | ESPEN [S16] |
 | Chronic kidney disease G3-G5 | 0.8 g/kg/day; avoid >1.3 | KDIGO 2024 [S13] |
@@ -70,7 +70,7 @@ matters.
 
 ## Timing
 
-- **Total daily intake matters far more than timing** [S01].
+- **Total daily intake is the main lever** [S01].
 - The post-exercise "window" is hours wide, not 30 minutes. Protein within a few hours of training
   is fine.
 - Spacing protein across 3-5 meals is more useful than concentrating it in one.
@@ -88,7 +88,7 @@ during aggressive weight loss in older adults, where 1.2-1.5 g/kg is recommended
 ## Protein for older adults
 
 Aim for **1.0-1.2 g/kg/day** when healthy and **1.2-1.5 g/kg/day** during illness, with 25-30 g per
-meal and at least one meal containing a rapidly digested, leucine-rich protein [S16]. A whey shake is
+meal and at least one meal containing a rapidly digested, leucine-rich protein [S04, S16]. A whey shake is
 a practical way to add 25 g to a breakfast that would otherwise be carbohydrate-only.
 
 ## What "excessive" means

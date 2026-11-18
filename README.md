@@ -30,7 +30,7 @@ Research cut-off: **18 November 2026**. Prices, formulations and test results ar
 
 **3. The muscle effect is real, small, and conditional.** Morton's meta-analysis of 49 trials: +0.30 kg fat-free mass, +2.49 kg strength, with a breakpoint at **1.62 g/kg/day** [S01]. If you already eat enough protein, whey adds nothing.
 
-**4. More protein is not more muscle.** A dose-response analysis found strength gains plateau at 1.5 g/kg/day [S03]; another found lean mass gains up to 0.6 g/kg/day of supplemental protein [S02]. Above ~2.2 g/kg/day, the extra is oxidised or excreted.
+**4. More protein is not more muscle.** A dose-response analysis found strength gains plateau at 1.5 g/kg/day [S03]; another found each extra 0.1 g/kg/day added 0.39 kg of lean mass below 1.3 g/kg/day but only 0.12 kg above it [S02]. Above ~2.2 g/kg/day, the extra is oxidised or excreted.
 
 **5. Whey is one of the cleaner protein sources, but not clean by default.** 28% of whey products exceeded Prop 65's lead benchmark in the Clean Label Project's 2025 study, versus 77% of plant proteins [S30]. Consumer Reports found plant proteins averaged **nine times** the lead of dairy [S31].
 
@@ -115,10 +115,13 @@ See [brand comparison](docs/15-brands-and-cost.md) for all 16 ranked products, a
 | [`data/recalls.csv`](data/recalls.csv) | Recalls and enforcement actions |
 | [`data/certifications.csv`](data/certifications.csv) | Certification programme comparison |
 | [`data/studies.csv`](data/studies.csv) | 46 studies with design, result and certainty |
+| [`data/citation_audit.csv`](data/citation_audit.csv) | Verdict, evidence and reason for every in-text citation marker |
 | [`analysis/compute_costs.py`](analysis/compute_costs.py) | Regenerates all cost tables (stdlib only) |
 | [`analysis/validate.py`](analysis/validate.py) | Recomputes and checks every number and cross-reference |
 | [`analysis/check_docs.py`](analysis/check_docs.py) | Verifies links, citation markers and published figures |
 | [`analysis/check_refs.py`](analysis/check_refs.py) | Checks every reference URL for link rot (network required) |
+| [`analysis/check_audit.py`](analysis/check_audit.py) | Fails if any citation marker lacks an audit verdict |
+| [`analysis/build_citation_audit.py`](analysis/build_citation_audit.py) | Rebuilds the citation audit from the documentation |
 | [`.github/workflows/validate.yml`](.github/workflows/validate.yml) | CI: regenerates tables and runs both checkers |
 
 ## Data and reproducibility
@@ -131,8 +134,11 @@ Every cost figure in the documentation is generated, not typed:
 python analysis/compute_costs.py   # writes data/derived_costs.csv
 python analysis/validate.py        # 893 checks; exits non-zero on failure
 python analysis/check_docs.py      # links, citations and published figures
+python analysis/check_audit.py     # every citation marker has a verdict
 python analysis/check_refs.py      # optional: live link-rot and DOI check (network)
 ```
+
+The citation audit covers every in-text marker, not a sample: 114 instances across the README and the 17 documents, of which 98 are supported by the cited source's abstract or open-access text and 16 are explicitly unverified with the reason recorded. `analysis/check_audit.py` fails if a marker is added or edited without a verdict, so the coverage cannot silently decay.
 
 `validate.py` recomputes each cost independently, verifies protein never exceeds serving weight, checks protein density is physiologically plausible, verifies the amino acid table sums and that EAA/BCAA/leucine totals fall in published ranges, confirms every priced product has a label row and vice versa, checks that flavour rows reference real products, checks study IDs are sequential, and confirms every document and dataset referenced here exists.
 
