@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this review or its datasets, cite the repository and the underlying studies."
+title: "Whey Protein Powders: An Independent Scientific Investigation"
+abstract: >-
+  A source-first review of whey protein formulations, protein quality, dosing, additives, flavour
+  variation, contaminants, third-party certification, safety and cost across 17 leading products,
+  with reproducible datasets and validation scripts.
+authors:
+  - family-names: "Edwards"
+    given-names: "Kevin"
+    email: "kevinedwards7289@gmail.com"
+date-released: "2026-11-18"
+license: "CC-BY-4.0"
+keywords:
+  - whey protein
+  - protein supplementation
+  - sports nutrition
+  - heavy metals
+  - protein quality
+  - DIAAS
+  - leucine
+  - food safety
