@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 AUDIT = ROOT / "data" / "citation_audit.csv"
 MARKER = re.compile(r"\[([^\]]*S\d{2}[^\]]*)\]")
 VERDICTS = {"supported", "unverified"}
+BASES = {"abstract", "full text", "report", "not accessible"}
 
 failures: list[str] = []
 checks = 0
@@ -51,6 +52,8 @@ def instances() -> list[tuple[str, str, int, str]]:
 with (ROOT / "data" / "studies.csv").open(encoding="utf-8") as handle:
     study_ids = {row["id"] for row in csv.DictReader(handle)}
 
+reference_text = (ROOT / "docs" / "references.md").read_text(encoding="utf-8")
+
 with AUDIT.open(encoding="utf-8") as handle:
     audit_rows = list(csv.DictReader(handle))
 
@@ -62,12 +65,24 @@ for row in audit_rows:
     check(row["verdict"] in VERDICTS, f"{key}: unknown verdict '{row['verdict']}'")
     check(row["study"] in study_ids, f"{key}: study not in studies.csv")
     check(bool(row["claim"]), f"{key}: empty claim")
+    check(row["basis"] in BASES, f"{key}: unknown evidence basis '{row['basis']}'")
+    check(
+        bool(re.fullmatch(r"https?://\S+", row["source"])),
+        f"{key}: source is not a URL: '{row['source']}'",
+    )
+    if row["basis"] == "abstract":
+        check(
+            row["source"] in reference_text,
+            f"{key}: abstract source is not the URL recorded in docs/references.md",
+        )
     if row["verdict"] == "supported":
         check(bool(row["evidence"]), f"{key}: supported row has no evidence")
         check(not row["reason"], f"{key}: supported row should not carry a reason")
+        check(row["basis"] != "not accessible", f"{key}: supported row cannot be marked not accessible")
     else:
         check(bool(row["reason"]), f"{key}: unverified row has no reason")
         check(not row["evidence"], f"{key}: unverified row should not claim evidence")
+        check(row["basis"] == "not accessible", f"{key}: unverified row must be marked not accessible")
 
 expected = instances()
 check(

@@ -31,8 +31,9 @@ other.
 | Rice protein concentrate | 0.42 | 0.37 | lysine |
 | Collagen | 0.00 | 0.00 | tryptophan |
 
-Values from Mathai et al. 2017 and Rutherfurd et al. 2015 [S17, S18], reproduced in the ADPI Protein
-Quality Guide. Note the detail that marketing rarely mentions: **WPI (1.09) scores higher than WPC
+Values from Rutherfurd et al. 2015 [S18], reproduced in the ADPI Protein Quality Guide [S20].
+Mathai et al. 2017 likewise found that PDCAAS overstates the quality of dairy and plant proteins
+relative to DIAAS [S17]. Note the detail that marketing rarely mentions: **WPI (1.09) scores higher than WPC
 (0.97)** on DIAAS, because the isolate's lower ash and lactose content leaves a purer protein
 fraction. Both are excellent; the isolate is marginally better.
 

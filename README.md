@@ -26,7 +26,7 @@ Research cut-off: **18 November 2026**. Prices, formulations and test results ar
 
 **1. The form of whey matters far less than the marketing implies.** Concentrate, isolate and hydrolysate deliver the same amino acids. Isolate is filtered further to remove lactose and fat; hydrolysate is pre-digested for faster absorption. In the one direct MPS comparison, hydrolysate and intact whey produced statistically similar responses (+67% vs +57%) [S44].
 
-**2. Protein quality is genuinely high, and DIAAS finally shows it.** PDCAAS truncates at 1.00, so every decent protein scores identically. DIAAS does not: WPI 1.09, WPC 0.97, soy 0.90, pea 0.82, rice 0.37 [S17, S18]. Whey is leucine-dense at roughly 10–13% of protein, about 2.6 g per 25 g serving.
+**2. Protein quality is genuinely high, and DIAAS finally shows it.** PDCAAS truncates at 1.00, so every decent protein scores identically. DIAAS does not: WPI 1.09, WPC 0.97, soy 0.90, pea 0.82, rice 0.37 [S18]. Whey is leucine-dense at roughly 10–13% of protein, about 2.6 g per 25 g serving.
 
 **3. The muscle effect is real, small, and conditional.** Morton's meta-analysis of 49 trials: +0.30 kg fat-free mass, +2.49 kg strength, with a breakpoint at **1.62 g/kg/day** [S01]. If you already eat enough protein, whey adds nothing.
 
@@ -138,7 +138,7 @@ python analysis/check_audit.py     # every citation marker has a verdict
 python analysis/check_refs.py      # optional: live link-rot and DOI check (network)
 ```
 
-The citation audit covers every in-text marker, not a sample: 114 instances across the README and the 17 documents, of which 98 are supported by the cited source's abstract or open-access text and 16 are explicitly unverified with the reason recorded. `analysis/check_audit.py` fails if a marker is added or edited without a verdict, so the coverage cannot silently decay.
+The citation audit covers every in-text marker, not a sample: 114 instances across the README and the 17 documents, of which 112 are supported by the cited source's abstract or open-access text and 2 are explicitly unverified with the reason recorded. Every row also carries the URL or DOI actually used for its verdict. `analysis/check_audit.py` fails if a marker is added or edited without a verdict, so the coverage cannot silently decay.
 
 `validate.py` recomputes each cost independently, verifies protein never exceeds serving weight, checks protein density is physiologically plausible, verifies the amino acid table sums and that EAA/BCAA/leucine totals fall in published ranges, confirms every priced product has a label row and vice versa, checks that flavour rows reference real products, checks study IDs are sequential, and confirms every document and dataset referenced here exists.
 
