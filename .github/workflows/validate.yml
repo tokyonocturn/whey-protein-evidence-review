@@ -16,3 +16,7 @@ jobs:
         run: python analysis/compute_costs.py
       - name: Validate datasets and documentation
         run: python analysis/validate.py
+      - name: Check links, citations and published figures
+        run: python analysis/check_docs.py
+      - name: Confirm regeneration leaves the committed tables unchanged
+        run: git diff --exit-code -- data/derived_costs.csv data/derived_product_metrics.csv

@@ -78,42 +78,47 @@ See [brand comparison](docs/15-brands-and-cost.md) for all 16 ranked products, a
 
 ## Repository map
 
-```
-README.md                     This overview
-docs/
-  01-methodology.md           Scope, source hierarchy, grading, reproducibility
-  02-formulations.md          Concentrate vs isolate vs hydrolysate vs native vs blends
-  03-protein-quality.md       PDCAAS, DIAAS, amino acids, leucine, digestibility
-  04-efficacy.md              Muscle, strength, recovery, health outcomes
-  05-dosage.md                Daily intake, per-meal dosing, serving sizes by body weight
-  06-digestion-allergy.md     Lactose, intolerance, cow's milk protein allergy, GI ladder
-  07-additives.md             Sweeteners, sugar alcohols, gums, fillers, spiking
-  08-flavors.md               Flavour families, cocoa risk, allergen differences
-  09-contaminants.md          Heavy metals, microbes, pesticides, bisphenols
-  10-testing-certifications.md  NSF, Informed Sport/Choice, USP, Labdoor, COAs
-  11-safety-kidney-liver.md   Long-term safety, CKD, cirrhosis, pregnancy
-  12-hormones-myths.md        Testosterone, estrogen, IGF-1, acne, 20+ claims tested
-  13-production-claims.md     Grass-fed, organic, conventional, rBGH, native whey
-  14-manufacturing-recalls-regulation.md  cGMP, DSHEA, recalls, litigation
-  15-brands-and-cost.md       Full cost table and brand-by-brand analysis
-  16-recommendations.md       Decision tree and product picks by situation
-  17-limitations.md           What this review cannot tell you
-  references.md               Full citations with URLs
-data/
-  products.csv                Label data for 17 products
-  prices.csv                  Dated prices with retailer and basis
-  derived_costs.csv           Computed cost per serving / gram / 25 g
-  derived_product_metrics.csv Protein density and calories per 25 g protein
-  flavors.csv                 56 flavour entries with allergen and cocoa flags
-  amino_acids.csv             Typical whey amino acid composition
-  contaminants.csv            Study-level laboratory findings
-  recalls.csv                 Recalls and enforcement actions
-  certifications.csv          Certification programme comparison
-  studies.csv                 43 studies with design, result and certainty
-analysis/
-  compute_costs.py            Regenerates all cost tables (stdlib only)
-  validate.py                 Recomputes and checks every number and cross-reference
-```
+**Documentation**
+
+| Document | Contents |
+|---|---|
+| [01 — Methodology](docs/01-methodology.md) | Scope, source hierarchy, grading, reproducibility |
+| [02 — Formulations](docs/02-formulations.md) | Concentrate vs isolate vs hydrolysate vs native vs blends |
+| [03 — Protein quality](docs/03-protein-quality.md) | PDCAAS, DIAAS, amino acids, leucine, digestibility |
+| [04 — Efficacy](docs/04-efficacy.md) | Muscle, strength, recovery, health outcomes |
+| [05 — Dosage](docs/05-dosage.md) | Daily intake, per-meal dosing, serving sizes by body weight |
+| [06 — Digestion and allergy](docs/06-digestion-allergy.md) | Lactose, intolerance, cow's milk protein allergy, GI ladder |
+| [07 — Additives](docs/07-additives.md) | Sweeteners, sugar alcohols, gums, fillers, spiking |
+| [08 — Flavours](docs/08-flavors.md) | Flavour families, cocoa risk, allergen differences |
+| [09 — Contaminants](docs/09-contaminants.md) | Heavy metals, microbes, pesticides, bisphenols |
+| [10 — Testing and certification](docs/10-testing-certifications.md) | NSF, Informed Sport/Choice, USP, Labdoor, COAs |
+| [11 — Safety: kidney and liver](docs/11-safety-kidney-liver.md) | Long-term safety, CKD, cirrhosis, pregnancy |
+| [12 — Hormones and myths](docs/12-hormones-myths.md) | Testosterone, estrogen, IGF-1, acne, 20+ claims tested |
+| [13 — Production claims](docs/13-production-claims.md) | Grass-fed, organic, conventional, rBGH, native whey |
+| [14 — Manufacturing and regulation](docs/14-manufacturing-recalls-regulation.md) | cGMP, DSHEA, recalls, litigation |
+| [15 — Brands and cost](docs/15-brands-and-cost.md) | Full cost table and brand-by-brand analysis |
+| [16 — Recommendations](docs/16-recommendations.md) | Decision tree and product picks by situation |
+| [17 — Limitations](docs/17-limitations.md) | What this review cannot tell you |
+| [References](docs/references.md) | Full citations with URLs |
+
+**Data, analysis and project files**
+
+| Path | Contents |
+|---|---|
+| [`data/products.csv`](data/products.csv) | Label data for 16 products |
+| [`data/prices.csv`](data/prices.csv) | Dated prices with retailer and basis |
+| [`data/derived_costs.csv`](data/derived_costs.csv) | Computed cost per serving / gram / 25 g |
+| [`data/derived_product_metrics.csv`](data/derived_product_metrics.csv) | Protein density and calories per 25 g protein |
+| [`data/flavors.csv`](data/flavors.csv) | 56 flavour entries with allergen and cocoa flags |
+| [`data/amino_acids.csv`](data/amino_acids.csv) | Typical whey amino acid composition |
+| [`data/contaminants.csv`](data/contaminants.csv) | Study-level laboratory findings |
+| [`data/recalls.csv`](data/recalls.csv) | Recalls and enforcement actions |
+| [`data/certifications.csv`](data/certifications.csv) | Certification programme comparison |
+| [`data/studies.csv`](data/studies.csv) | 43 studies with design, result and certainty |
+| [`analysis/compute_costs.py`](analysis/compute_costs.py) | Regenerates all cost tables (stdlib only) |
+| [`analysis/validate.py`](analysis/validate.py) | Recomputes and checks every number and cross-reference |
+| [`analysis/check_docs.py`](analysis/check_docs.py) | Verifies links, citation markers and published figures |
+| [`.github/workflows/validate.yml`](.github/workflows/validate.yml) | CI: regenerates tables and runs both checkers |
 
 ## Data and reproducibility
 
@@ -123,7 +128,8 @@ Every cost figure in the documentation is generated, not typed:
 
 ```bash
 python analysis/compute_costs.py   # writes data/derived_costs.csv
-python analysis/validate.py        # 100+ checks; exits non-zero on failure
+python analysis/validate.py        # 887 checks; exits non-zero on failure
+python analysis/check_docs.py      # links, citations and published figures
 ```
 
 `validate.py` recomputes each cost independently, verifies protein never exceeds serving weight, checks protein density is physiologically plausible, verifies the amino acid table sums and that EAA/BCAA/leucine totals fall in published ranges, confirms every priced product has a label row and vice versa, checks that flavour rows reference real products, checks study IDs are sequential, and confirms every document and dataset referenced here exists.

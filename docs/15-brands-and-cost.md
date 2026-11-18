@@ -6,24 +6,24 @@ metric because 25 g is close to a typical effective dose; cost per gram is inclu
 
 ## The full cost table
 
-| # | Product | Form | $/serving | $/g protein | $/25 g protein |
+| # | Brand | Product | $/serving | $/g protein | $/25 g protein |
 |---|---|---|---|---|---|
-| 1 | Body Fortress Super Advanced Whey | blend | $0.93 | $0.0309 | **$0.77** |
-| 2 | Myprotein Impact Whey | concentrate | $1.00 | $0.0476 | **$1.19** |
-| 3 | Optimum Nutrition Gold Standard | blend | $1.45 | $0.0605 | **$1.51** |
-| 4 | Premier Protein 100% Whey | blend | $2.03 | $0.0676 | **$1.69** |
-| 5 | BSN Syntha-6 | blend | $1.58 | $0.0720 | **$1.80** |
-| 6 | Naked Whey | concentrate | $1.84 | $0.0737 | **$1.84** |
-| 7 | Transparent Labs Grass-Fed Isolate | isolate | $2.17 | $0.0774 | **$1.93** |
-| 8 | Ascent Native Fuel Whey | concentrate | $2.07 | $0.0827 | **$2.07** |
-| 9 | Dymatize ISO100 | hydrolysate/isolate | $2.17 | $0.0867 | **$2.17** |
-| 10 | Isopure Low Carb | isolate | $2.18 | $0.0871 | **$2.18** |
-| 11 | Garden of Life Sport Grass Fed Whey | concentrate | $2.10 | $0.0875 | **$2.19** |
-| 12 | Legion Whey+ | isolate | $2.00 | $0.0909 | **$2.27** |
-| 13 | Thorne Whey Isolate | isolate | $2.17 | $0.1032 | **$2.58** |
-| 14 | BPN Whey Isolate | isolate | $2.60 | $0.1040 | **$2.60** |
-| 15 | Momentous Whey Isolate | isolate | $2.80 | $0.1400 | **$3.50** |
-| 16 | Klean Isolate | isolate | $3.23 | $0.1613 | **$4.03** |
+| 1 | Body Fortress | Super Advanced Whey Protein (Chocolate) | $0.93 | $0.0309 | **$0.77** |
+| 2 | Myprotein | Impact Whey Protein (Vanilla) | $1.00 | $0.0476 | **$1.19** |
+| 3 | Optimum Nutrition | Gold Standard 100% Whey (Double Rich Chocolate) | $1.45 | $0.0605 | **$1.51** |
+| 4 | Premier Protein | 100% Whey Protein Powder (Chocolate Milkshake) | $2.03 | $0.0676 | **$1.69** |
+| 5 | BSN | Syntha-6 (Chocolate Milkshake) | $1.58 | $0.0720 | **$1.80** |
+| 6 | Naked Nutrition | Naked Whey (Unflavored) | $1.84 | $0.0737 | **$1.84** |
+| 7 | Transparent Labs | 100% Grass-Fed Whey Protein Isolate (French Vanilla) | $2.17 | $0.0774 | **$1.93** |
+| 8 | Ascent | Native Fuel Whey (Vanilla Bean) | $2.07 | $0.0827 | **$2.07** |
+| 9 | Dymatize | ISO100 Hydrolyzed (Gourmet Chocolate) | $2.17 | $0.0867 | **$2.17** |
+| 10 | Isopure | Low Carb (Creamy Vanilla) | $2.18 | $0.0871 | **$2.18** |
+| 11 | Garden of Life | Sport Grass Fed Whey (Vanilla) | $2.10 | $0.0875 | **$2.19** |
+| 12 | Legion | Whey+ (French Vanilla) | $2.00 | $0.0909 | **$2.27** |
+| 13 | Thorne | Whey Protein Isolate (Vanilla) | $2.17 | $0.1032 | **$2.58** |
+| 14 | Bare Performance Nutrition | Whey Isolate (Vanilla) | $2.60 | $0.1040 | **$2.60** |
+| 15 | Momentous | Whey Protein Isolate (Vanilla) | $2.80 | $0.1400 | **$3.50** |
+| 16 | Klean Athlete | Klean Isolate (Vanilla) | $3.23 | $0.1613 | **$4.03** |
 
 **Spread: 5.2x** between the cheapest (Body Fortress) and the most expensive (Klean) per gram of
 labelled protein. Excluding the two extremes, most of the market sits between $1.51 and $2.60 per

@@ -100,7 +100,9 @@ def main() -> None:
         "kcal_per_25g_protein",
     ]
     with (DATA / "derived_costs.csv").open("w", newline="", encoding="utf-8") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fieldnames, extrasaction="ignore")
+        writer = csv.DictWriter(
+            fh, fieldnames=fieldnames, extrasaction="ignore", lineterminator="\n"
+        )
         writer.writeheader()
         for row in primary + [r for r in rows if r["comparison_set"] != "primary"]:
             writer.writerow(row)
@@ -156,6 +158,7 @@ def main() -> None:
                 "kcal_per_25g_protein",
                 "protein_g_per_dollar_100",
             ],
+            lineterminator="\n",
         )
         writer.writeheader()
         writer.writerows(metric_rows)
