@@ -1,0 +1,18 @@
+rank_by_cost_per_g,brand,product,size_label,comparison_set,price_usd,servings,protein_g,total_protein_g,cost_per_serving_usd,cost_per_g_protein_usd,cost_per_25g_protein_usd,protein_pct_of_powder,kcal_per_25g_protein
+1,Body Fortress,Super Advanced Whey Protein (Chocolate),3.9 lb,primary,38.04,41,30,1230,0.928,0.0309,0.773,69.8,
+2,Myprotein,Impact Whey Protein (Vanilla),2.2 lb (1 kg),primary,39.99,40,21,840,1.000,0.0476,1.190,84.0,
+3,Optimum Nutrition,Gold Standard 100% Whey (Double Rich Chocolate),5 lb,primary,105.99,73,24,1752,1.452,0.0605,1.512,78.9,135
+4,Premier Protein,100% Whey Protein Powder (Chocolate Milkshake),1.5 lb,primary,34.48,17,30,510,2.028,0.0676,1.690,73.2,
+5,BSN,Syntha-6 (Chocolate Milkshake),5 lb,primary,75.99,48,22,1056,1.583,0.0720,1.799,47.8,227
+6,Naked Nutrition,Naked Whey (Unflavored),5 lb,primary,139.99,76,25,1900,1.842,0.0737,1.842,83.3,120
+7,Transparent Labs,100% Grass-Fed Whey Protein Isolate (French Vanilla),30 servings,primary,64.99,30,28,840,2.166,0.0774,1.934,81.6,
+8,Ascent,Native Fuel Whey (Vanilla Bean),2 lb,primary,59.94,29,25,725,2.067,0.0827,2.067,80.6,
+9,Dymatize,ISO100 Hydrolyzed (Gourmet Chocolate),5 lb,primary,168.99,78,25,1950,2.167,0.0867,2.167,78.1,120
+10,Isopure,Low Carb (Creamy Vanilla),4.5 lb,primary,134.95,62,25,1550,2.177,0.0871,2.177,73.5,
+11,Garden of Life,Sport Grass Fed Whey (Vanilla),20 servings,primary,41.99,20,24,480,2.099,0.0875,2.187,72.7,
+12,Legion,Whey+ (French Vanilla),30 servings,primary,59.99,30,22,660,2.000,0.0909,2.272,84.6,114
+13,Thorne,Whey Protein Isolate (Vanilla),30 servings,primary,65.00,30,21,630,2.167,0.1032,2.579,75.3,
+14,Bare Performance Nutrition,Whey Isolate (Vanilla),25 servings,primary,64.99,25,25,625,2.600,0.1040,2.600,79.1,
+15,Momentous,Whey Protein Isolate (Vanilla),25 servings,primary,69.99,25,20,500,2.800,0.1400,3.499,81.0,
+16,Klean Athlete,Klean Isolate (Vanilla),20 servings,primary,64.50,20,20,400,3.225,0.1613,4.031,77.5,
+,Optimum Nutrition,Gold Standard 100% Whey (Double Rich Chocolate),2 lb,size_sensitivity,74.49,29,24,696,2.569,0.1070,2.676,78.9,135
