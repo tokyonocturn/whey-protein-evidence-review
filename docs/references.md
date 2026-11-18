@@ -1,6 +1,6 @@
 # References
 
-Study IDs (S01-S43) correspond to `data/studies.csv`. Laboratory and regulatory sources are listed
+Study IDs (S01-S46) correspond to `data/studies.csv`. Laboratory and regulatory sources are listed
 separately. All URLs were accessed between 14 and 18 November 2026.
 
 ## Efficacy, dosing and protein quality
@@ -27,6 +27,7 @@ separately. All URLs were accessed between 14 and 18 November 2026.
   https://pmc.ncbi.nlm.nih.gov/articles/PMC2901380/
 - **S07** Phillips SM, Van Loon LJC. Dietary protein for athletes: from requirements to optimum
   adaptation. *J Sports Sci.* 2011;29 Suppl 1:S29-S38.
+  https://doi.org/10.1080/02640414.2011.619204
 - **S08** Antonio J, Peacock CA, Ellerbroek A, Fromhoff B, Silver T. The effects of consuming a high
   protein diet (3.4 g/kg/d) on body composition in resistance-trained individuals. *J Int Soc Sports
   Nutr.* 2014;11:19; and Antonio J, et al. A high protein diet has no harmful effects: a one-year
@@ -59,8 +60,8 @@ separately. All URLs were accessed between 14 and 18 November 2026.
   *Clin Nutr.* 2022;41(4):958-989. https://pmc.ncbi.nlm.nih.gov/articles/PMC4208946/
 - **S17** Mathai JK, Liu Y, Stein HH. Values for digestible indispensable amino acid scores (DIAAS)
   for some dairy and plant proteins may better describe protein quality than values calculated using
-  the concept for protein digestibility-corrected amino acid scores (PDCAAS). *Br J Nutr.*
-  2017;117(4):490-499.
+  the   concept for protein digestibility-corrected amino acid scores (PDCAAS). *Br J Nutr.*
+  2017;117(4):490-499. https://doi.org/10.1017/S0007114517000125
 - **S18** Rutherfurd SM, Fanning AC, Miller BJ, Moughan PJ. Protein digestibility-corrected amino acid
   scores and digestible indispensable amino acid scores differentially describe protein quality in
   growing male rats. *J Nutr.* 2015;145(2):372-379.
@@ -84,6 +85,7 @@ separately. All URLs were accessed between 14 and 18 November 2026.
   https://www.nature.com/articles/s41598-018-29591-4
 - **S25** Witkowski M, Nemet I, Alamri H, et al. The artificial sweetener erythritol and
   cardiovascular event risk. *Nat Med.* 2023;29(3):710-718.
+  https://doi.org/10.1038/s41591-023-02223-9
 - **S26** EFSA Panel on Food Additives and Flavourings. Re-evaluation of erythritol (E 968) as a food
   additive. *EFSA J.* 2023;21(12):e8430. https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.8430
 - **S27** EFSA. Re-evaluation of acesulfame K (E 950) as a food additive. *EFSA J.* 2025;23:e9317.
@@ -129,6 +131,18 @@ separately. All URLs were accessed between 14 and 18 November 2026.
 - **S43** Dietary protein and bone health across the life-course: an updated systematic review and
   meta-analysis over 40 years. *Osteoporos Int.* 2019;30(4):741-752.
   https://link.springer.com/article/10.1007/s00198-019-04933-8
+- **S44** Moro T, Brightwell CR, Velarde B, et al. Whey protein hydrolysate increases amino acid
+  uptake, mTORC1 signaling, and protein synthesis in skeletal muscle of healthy young men in a
+  randomized crossover trial. *J Nutr.* 2019;149(7):1149-1158.
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC7443767
+- **S45** Hamarsland H, Nordengen AL, Aas SN, et al. Native whey protein with high levels of leucine
+  results in similar post-exercise muscular anabolic responses as regular whey protein: a randomized
+  controlled trial. *J Int Soc Sports Nutr.* 2017;14.
+  https://link.springer.com/article/10.1186/s12970-017-0202-y
+- **S46** Castro LHA, de Araujo FHS, Olimpio MYM, et al. Comparative meta-analysis of the effect of
+  concentrated, hydrolyzed, and isolated whey protein supplementation on body composition of
+  physical activity practitioners. *Nutrients.* 2019;11(9):2047.
+  https://www.mdpi.com/2072-6643/11/9/2047
 
 ## Laboratory reports and investigations
 

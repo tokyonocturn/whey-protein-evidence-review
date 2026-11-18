@@ -132,6 +132,6 @@ bone, lean mass and function.
 
 Whey's real hormonal effects are modest and physiological: a transient insulin rise, a small IGF-1
 increase, and no change in estradiol. Acne is the one area where a genuine individual susceptibility
-may exist, and the controlled evidence is mixed. Almost everything else in circulation — kidney
-damage, liver toxicity, estrogenic effects, bone loss, "only 30 g per meal" — is either false or
+may exist, and the controlled evidence is mixed. Almost everything else in circulation (kidney damage, liver
+toxicity, estrogenic effects, bone loss, "only 30 g per meal") is either false or
 applies only to people with specific diseases.

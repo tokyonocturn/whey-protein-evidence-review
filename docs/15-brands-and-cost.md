@@ -32,7 +32,7 @@ labelled protein. Excluding the two extremes, most of the market sits between $1
 ## Pack size matters as much as brand
 
 Optimum Nutrition Gold Standard 5 lb is **$1.51 per 25 g**. The same product in a 2 lb tub is
-**$2.68 per 25 g** — 77% more per gram. Small tubs, single-serve sachets and subscription-free
+**$2.68 per 25 g**, 77% more per gram. Small tubs, single-serve sachets and subscription-free
 retail purchases are where value disappears. If you are confident you will use the product, buy the
 largest size with a reasonable expiry date.
 
@@ -55,63 +55,63 @@ flavour, grass-fed/organic claims, and brand positioning.
 
 ## Brand notes
 
-### Optimum Nutrition Gold Standard — the benchmark
+### Optimum Nutrition Gold Standard: the benchmark
 
 A WPI-led blend with WPC and hydrolysed peptides, 24 g protein in 30.4 g (78.9% density), 5.5 g BCAAs,
 sucralose and ace-K, soy lecithin. Widely certified, widely tested, and the cheapest credible
 mainstream option at $1.51 per 25 g. Its vanilla SKU is one of the Clean Sixteen (non-detect for all
 four heavy metals). The chocolate SKUs are not. This is the default recommendation for most people.
 
-### Dymatize ISO100 — the hydrolysate isolate
+### Dymatize ISO100: the hydrolysate isolate
 
 25 g protein in 32 g, hydrolysed WPI plus WPI, 2.6 g leucine, 5.5 g BCAAs, 120 kcal. Informed Choice.
 $2.17 per 25 g. Its Gourmet Vanilla is in the Clean Sixteen. A good choice for lactose-sensitive
 lifters who want a fast protein; the hydrolysate premium buys absorption speed, not extra muscle.
 
-### Transparent Labs — certified grass-fed isolate
+### Transparent Labs: certified grass-fed isolate
 
 28 g protein in 34.3 g, stevia, NSF Certified for Sport and Informed Choice, $1.93 per 25 g. One of
 the best combinations of certification, formulation and price in the isolate segment.
 
-### Ascent Native Fuel — native whey, every batch tested
+### Ascent Native Fuel: native whey, every batch tested
 
 25 g protein, stevia, Informed Sport on every batch, $2.07 per 25 g. Native whey has a faster
 leucine peak and similar MPS. A strong pick for drug-tested athletes who want a concentrate.
 
-### Legion Whey+ — grass-fed isolate with stevia
+### Legion Whey+: grass-fed isolate with stevia
 
 22 g protein in 26 g, stevia, xanthan gum, sunflower lecithin, NSF/ANSI 173 (contents, not sport),
 $2.27 per 25 g. Clean label, good flavour reputation, mid-premium price.
 
-### Naked Whey — one ingredient
+### Naked Whey: one ingredient
 
 25 g protein in 30 g, grass-fed WPC, no sweetener, no flavour, no lecithin, Informed Choice, $1.84 per
 25 g. The purest expression of "whey protein" in the dataset. Less pleasant to drink; excellent for
 smoothies and cooking.
 
-### Isopure — low-carb isolate
+### Isopure: low-carb isolate
 
 25 g protein in 34 g, sucralose, Informed Choice, $2.18 per 25 g. Its unflavoured SKU is in the Clean
 Sixteen. Fine product, unremarkable value.
 
-### Garden of Life Sport — organic grass-fed whey
+### Garden of Life Sport: organic grass-fed whey
 
 24 g protein in 33 g, stevia, NSF Certified for Sport, $2.19 per 25 g. The organic whey option. Its
 vanilla SKU tested non-detect; the brand's plant line is a separate story and not part of this whey
 review.
 
-### Premier Protein — mass-market value
+### Premier Protein: mass-market value
 
 30 g protein in 41 g, sucralose/ace-K, $1.69 per 25 g. CR measured 0.38 µg lead/serving and its
 vanilla is in the Clean Sixteen. Cheap, widely available, and better tested than its price suggests.
 
-### BSN Syntha-6 — a milkshake, not a protein concentrate
+### BSN Syntha-6: a milkshake, not a protein concentrate
 
 22 g protein in 46 g (47.8% density), 15 g carbs, 6 g fat, 200 kcal, $1.80 per 25 g. Pleasant to
 drink, poor protein density, 227 kcal per 25 g of protein. Buy it as a treat or a mass-gaining tool,
 not as an efficient protein source.
 
-### Body Fortress — cheapest, with a caveat
+### Body Fortress: cheapest, with a caveat
 
 30 g protein in 43 g (69.8% density), $0.77 per 25 g. The cheapest labelled protein in the dataset.
 But the product lists taurine, creatine and free amino acids, and plaintiffs alleged about 28% of the
@@ -119,14 +119,14 @@ labelled protein came from non-whey nitrogen. Its vanilla SKU is in the Clean Si
 metals. If the protein number is inflated, the real cost per gram of whey protein is materially higher
 than $0.77.
 
-### Thorne, BPN, Momentous, Klean — clinician and athlete premiums
+### Thorne, BPN, Momentous, Klean: clinician and athlete premiums
 
 $2.58-$4.03 per 25 g for 20-25 g isolates with NSF Certified for Sport. Excellent manufacturing and
 certification; the price is 1.7-2.7x the mainstream blend. Justified for athletes who need
 certification and for people who value the brands' testing transparency. Not justified on protein
 quality grounds.
 
-### Myprotein — the value concentrate
+### Myprotein: the value concentrate
 
 21 g protein in 25 g (84% density), sucralose, $1.19 per 25 g on the 1 kg listing. The cheapest
 credible concentrate. Certification varies by market and SKU, and brand-direct pricing swings wildly
@@ -136,7 +136,7 @@ between sales; the 5.5 lb listings also report inconsistent serving counts, so c
 
 Averaging the products in this dataset (unweighted): concentrates and blends cluster at
 $0.03-$0.09/g; isolates at $0.077-$0.16/g. The isolate premium is roughly 30-100% per gram of
-protein. You are buying lactose removal, lower fat, and often certification — not more protein per
+protein. You are buying lactose removal, lower fat, and often certification, not more protein per
 dollar.
 
 ## How to shop

@@ -1,6 +1,6 @@
 # Grass-fed, organic, conventional and other marketed varieties
 
-Whey is a by-product. Its quality depends on the milk, the filtration, and the drying — and the
+Whey is a by-product. Its quality depends on the milk, the filtration, and the drying, and the
 labels that sell it are mostly about the cow, not the protein. This document separates the claims
 that change the product from the claims that change the price.
 
@@ -43,7 +43,7 @@ Native whey is filtered from skim milk rather than recovered from cheese product
 cheese vat's heat and acid. It retains more intact beta-lactoglobulin, alpha-lactalbumin, lactoferrin
 and immunoglobulins, and in some comparisons a higher leucine content. Trials show a faster and
 higher leucinaemia than WPC 80, but **no difference in muscle protein synthesis** in the head-to-head
-trial [S06, S07]. It is a legitimate premium product with a weak outcome advantage.
+trial [S45]. It is a legitimate premium product with a weak outcome advantage.
 
 ### Microfiltered vs ion exchange
 
@@ -143,4 +143,4 @@ three. Sometimes that is worth it. It is not worth it for protein quality.
 
 Grass-fed and organic whey are real products with real farming differences, modest fatty acid
 advantages in the milk, and no meaningful protein advantage in the powder. They cost 20-50% more.
-Buy them for values, certification, or sweetener preference — not for muscle, and not for purity.
+Buy them for values, certification, or sweetener preference, not for muscle, and not for purity.

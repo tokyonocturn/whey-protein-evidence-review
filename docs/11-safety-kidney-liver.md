@@ -89,10 +89,9 @@ Cirrhosis is a protein-catabolic state. Restricting protein worsens sarcopenia a
 ## Other safety considerations
 
 - **Hydration and kidney stones.** Higher protein intakes increase urinary calcium and may slightly
-  increase stone risk in susceptible people. The German Nutrition Society umbrella review found no
-  evidence that high protein specifically triggers stones, but hydration and calcium intake matter
-  [S13 context]. A history of calcium oxalate stones warrants medical advice, not necessarily protein
-  restriction.
+  increase stone risk in susceptible people. Observational evidence does not show that high protein
+  specifically triggers stones in healthy people, though hydration and calcium intake matter. A
+  history of calcium oxalate stones warrants medical advice, not necessarily protein restriction.
 - **Gout.** Whey is low in purines; dairy protein is associated with *lower* gout risk. This is not a
   concern.
 - **Bone.** Higher protein intake is associated with higher BMD and lower hip fracture risk in
@@ -121,7 +120,7 @@ There is no evidence-based upper limit for healthy adults. Practical guardrails:
 
 ## Bottom line
 
-For healthy people, high protein — including whey — is safe up to at least 2.2 g/kg/day and has been
+For healthy people, high protein, including whey, is safe up to at least 2.2 g/kg/day and has been
 studied without harm up to about 3.3 g/kg/day for a year. The kidney-risk claim applies to people who
 already have kidney disease, and to them it matters a great deal. In cirrhosis, protein should be
 increased, not restricted. If you have kidney or liver disease, the number that matters is your

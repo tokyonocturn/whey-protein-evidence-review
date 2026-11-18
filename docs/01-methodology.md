@@ -138,6 +138,6 @@ Both scripts use only the Python standard library.
 
 ## Source register
 
-Every claim in this repository is tied to a numbered study in `data/studies.csv` ([S01]-[S43]) or to
+Every claim in this repository is tied to a numbered study in `data/studies.csv` ([S01]-[S46]) or to
 a laboratory, regulatory or product source listed in [references.md](references.md). If a sentence has
 no citation, it is analysis rather than a finding.

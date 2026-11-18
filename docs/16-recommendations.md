@@ -6,8 +6,8 @@ appears in `data/products.csv` with a computed cost per 25 g of protein.
 ## First question: do you need a supplement at all?
 
 Calculate your protein intake for two or three typical days. If you are already at **1.6 g/kg/day**
-and training, whey will not add muscle [S01]. If you are below target — especially at breakfast, in
-older age, or during a calorie deficit — a shake is a cheap, convenient fix. That is the only
+and training, whey will not add muscle [S01]. If you are below target, especially at breakfast, in
+older age, or during a calorie deficit, a shake is a cheap, convenient fix. That is the only
 question that matters before brand choice.
 
 ## By situation

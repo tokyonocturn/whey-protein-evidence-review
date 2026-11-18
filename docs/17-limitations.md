@@ -75,15 +75,15 @@ rows document what changes without inventing numbers.
 
 ## How to use the datasets
 
-- `data/products.csv` — label composition for 16 products.
-- `data/prices.csv` — prices with retailer, date and basis.
-- `data/derived_costs.csv` — computed cost metrics, ranked.
-- `data/flavors.csv` — 56 flavour entries with ingredient and allergen flags.
-- `data/amino_acids.csv` — typical whey amino acid composition.
-- `data/contaminants.csv` — study-level laboratory findings.
-- `data/recalls.csv` — recalls and enforcement actions.
-- `data/certifications.csv` — certification programme comparison.
-- `data/studies.csv` — 43 studies with design, result and certainty.
+- `data/products.csv`: label composition for 16 products.
+- `data/prices.csv`: prices with retailer, date and basis.
+- `data/derived_costs.csv`: computed cost metrics, ranked.
+- `data/flavors.csv`: 56 flavour entries with ingredient and allergen flags.
+- `data/amino_acids.csv`: typical whey amino acid composition.
+- `data/contaminants.csv`: study-level laboratory findings.
+- `data/recalls.csv`: recalls and enforcement actions.
+- `data/certifications.csv`: certification programme comparison.
+- `data/studies.csv`: 46 studies with design, result and certainty.
 
 Every derived number can be regenerated with two standard-library Python scripts. If a number in a
 document disagrees with the CSV, the CSV and the script win; please open an issue.
@@ -97,7 +97,7 @@ a prescription.
 
 ## Key sources
 
-Evidence weights are recorded in `data/studies.csv` ([S01]-[S43]); laboratory and regulatory sources
+Evidence weights are recorded in `data/studies.csv` ([S01]-[S46]); laboratory and regulatory sources
 are in `data/contaminants.csv` and [references.md](references.md). The contested-claims table above
 reflects the balance of those sources, not a single study.
 

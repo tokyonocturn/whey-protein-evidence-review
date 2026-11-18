@@ -44,7 +44,7 @@ CITATION = re.compile(r"\[([^\]]*S\d{2}[^\]]*)\]")
 
 studies = read_rows("studies.csv")
 study_ids = {row["id"] for row in studies}
-check(len(study_ids) == 43, f"studies.csv: expected 43 ids, found {len(study_ids)}")
+check(len(study_ids) == 46, f"studies.csv: expected 46 ids, found {len(study_ids)}")
 
 references = (DOCS / "references.md").read_text(encoding="utf-8")
 

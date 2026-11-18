@@ -41,13 +41,13 @@ once total protein is adequate.**
 ## Recovery
 
 Protein after resistance exercise supports repair, but the "30-minute anabolic window" is much wider
-than supplement marketing implies. A meta-analysis of protein timing found total daily protein
-intake, not timing, was the strongest predictor of hypertrophy [S01 context]. Protein supplementation
+than supplement marketing implies. Reviews of protein distribution put total daily intake well ahead
+of timing [S04]. Protein supplementation
 modestly reduces markers of muscle damage and soreness in some trials; effects are small and
 inconsistent.
 
-Hydrolysed whey has the most interesting recovery data: one trial found faster recovery of peak
-torque after eccentric exercise versus intact whey [S06]. It has not been replicated at a scale that
+Hydrolysed whey has the most interesting recovery data: trials reviewed in [S06] report faster
+recovery of peak torque after eccentric exercise versus intact whey. It has not been replicated at a scale that
 justifies a 30-50% price premium for most people.
 
 ## Older adults
@@ -68,8 +68,7 @@ shows small but real effects:
   meaningful at population scale, not a treatment.
 - **Lipids:** a 2025 meta-analysis of 21 RCTs found LDL cholesterol fell in adults under 50 and when
   whey was combined with exercise; total cholesterol fell with exercise; there was no clinically
-  relevant blood pressure or insulin-resistance effect [S39]. An earlier meta-analysis in metabolic
-  syndrome found improvements in HbA1c, insulin, HOMA-IR and triglycerides [S39 context].
+  relevant blood pressure or insulin-resistance effect [S39].
 - **Postprandial glucose:** whey taken before a carbohydrate meal lowered peak glucose by **1.4
   mmol/L** across 16 crossover trials, with greater effects in type 2 diabetes [S41]. This is the
   best-supported "functional" use of whey outside muscle.

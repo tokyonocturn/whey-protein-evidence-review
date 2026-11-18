@@ -52,7 +52,7 @@ more of the intact, undenatured whey proteins (beta-lactoglobulin, alpha-lactalb
 lactoferrin, immunoglobulins) and has a higher leucine content per gram of protein in some
 comparisons. Trials show native whey produces a faster and higher leucinaemia than WPC 80, but the
 one head-to-head muscle protein synthesis trial found **no difference in MPS** between native whey
-and WPC 80 over five hours [S06, S07].
+and WPC 80 over five hours [S45].
 
 ## What actually differs, in numbers
 
@@ -79,15 +79,15 @@ serving from a 78%-protein hydrolysate blend are, for practical purposes, the sa
 different MPS responses: whey roughly doubled the casein response at rest and after resistance
 exercise, and beat soy after exercise [S05]. That is a *protein source* difference (whey is rapidly
 digested and leucine-rich), not a concentrate-versus-isolate difference. Within whey, WPH and intact
-whey produced statistically similar MPS (+67% vs +57%) in a randomised crossover trial [S06].
+whey produced statistically similar MPS (+67% vs +57%) in a randomised crossover trial [S44].
 
 **Strength and body composition.** A meta-analysis of concentrated, hydrolysed and isolated whey
 found fat-mass reduction with WPC but **no significant effect on fat-free mass in any subgroup**
-[S02]. The authors flagged high risk of bias and small study numbers. Hydrolysate has not
+[S46]. The authors flagged high risk of bias and small study numbers. Hydrolysate has not
 demonstrated superior long-term hypertrophy in adequately controlled trials.
 
-**Recovery.** One small trial found faster recovery of peak torque after eccentric exercise with
-hydrolysed whey versus isolate [S06]; a systematic review of protein and exercise-induced muscle
+**Recovery.** Trials reviewed in [S06] report faster recovery of peak torque after eccentric exercise with
+hydrolysed whey than with intact whey; a systematic review of protein and exercise-induced muscle
 damage found the evidence too inconsistent to recommend hydrolysate over intact whey.
 
 **Lactose.** This is the one difference that reliably matters to consumers: WPC 80 carries roughly
